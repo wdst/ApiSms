@@ -1,6 +1,6 @@
 <?php
 
-namespace wdst\apisms\Classes;
+namespace wdst\apisms;
 
 interface AuthInterface
 {
