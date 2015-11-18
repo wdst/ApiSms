@@ -1,5 +1,5 @@
 {
-    "name": "wds/apisms",
+    "name": "wdst/apisms",
     "version": "1.0.0",
     "description": "Общий api для работы с сервисами смс",
 
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "wds\\apisms\\": ""
+            "wdst\\apisms\\": ""
         }
     }
 }
