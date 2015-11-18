@@ -17,5 +17,5 @@ interface AuthInterface
     /**
      * @param Api $context
      */
-    public function setContext(Api $context);
+    public function setContext($context);
 }

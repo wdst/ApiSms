@@ -10,11 +10,5 @@ interface ApiInterface
     
     public function getClient();
     
-    public function setClient();
-    
-    public function smsStatus();
-    
-    public function smsCost();
-    
-    public function myBalance();
+    public function setClient(ClientInterface $client);
 }

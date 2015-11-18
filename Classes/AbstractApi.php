@@ -4,9 +4,7 @@ namespace wdst\apisms;
 
 abstract class AbstractApi implements ApiInterface{
     
-    protected $auth;
-    protected $client;
-    
+   
     public function __construct(AuthInterface $auth)
     {
         $this->auth = $auth;
@@ -19,12 +17,5 @@ abstract class AbstractApi implements ApiInterface{
     
     abstract public function getClient();
     
-    abstract public function setClient();
-    
-    
-    abstract public function smsStatus();
-    
-    abstract public function smsCost();
-    
-    abstract public function myBalance();
+    abstract public function setClient(ClientInterface $client);
 }
