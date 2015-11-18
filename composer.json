@@ -3,12 +3,10 @@
     "version": "1.0.0",
     "description": "Общий api для работы с сервисами смс",
 
-    "minimum-stability": "dev",
     "keywords": [
         "sms",
         "api"
     ],
-    "license": "MIT",
     "authors": [
         {
             "name": "wdst",
@@ -20,7 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "wds\\ApiSms\\": ""
+            "wds\\apisms\\": ""
         }
     }
 }
+
