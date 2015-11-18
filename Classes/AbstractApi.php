@@ -1,6 +1,6 @@
 <?php
 
-namespace ApiSms\Classes;
+namespace wdst\apisms\Classes;
 
 abstract class AbstractApi implements ApiInterface{
     

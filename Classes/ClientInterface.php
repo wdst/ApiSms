@@ -1,6 +1,6 @@
 <?php
 
-namespace Zelenin\SmsRu\Client;
+namespace wdst\apisms\Classes;
 
 interface ClientInterface
 {
