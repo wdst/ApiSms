@@ -1,0 +1,14 @@
+{
+    "packages": {
+        "wds/apisms": {
+            "dev-master": {
+                "name": "wds/apisms",
+                "version": "1.0.0",
+                "source": {
+                    "url": "https://bitbucket.org/wds/apisms",
+                    "type": "hg"
+                }
+            }
+        }
+    }
+}
